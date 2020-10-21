@@ -6,8 +6,17 @@ Ionic App for Mobile Course
 - Authenticate user
 
 Activity:
+- id: number
 - name: string
-- difficulty: number
-- startTime: date
-- endTime: date
+- start: date
+- end: date
 - repeating: boolean
+
+ActivityPhoto:
+- activity: Activity
+- photo: image
+
+ActivityLocation:
+- x: int
+- y: int
+- z: int
